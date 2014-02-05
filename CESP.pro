@@ -1,4 +1,4 @@
-update=1/23/2014 11:58:36 PM
+update=2/4/2014 11:51:16 PM
 version=1
 last_client=kicad
 [cvpcb]
@@ -48,22 +48,24 @@ LibName30=valves
 [pcbnew]
 version=1
 LastNetListRead=
-PadDrlX=320
-PadDimH=550
-PadDimV=550
-BoardThickness=620
-TxtPcbV=600
-TxtPcbH=600
-TxtModV=500
-TxtModH=500
-TxtModW=100
-VEgarde=100
-DrawLar=120
-EdgeLar=80
-TxtLar=120
-MSegLar=120
+UseCmpFile=1
+PadDrill=0.600000000000
+PadDrillOvalY=0.600000000000
+PadSizeH=1.000000000000
+PadSizeV=1.000000000000
+PcbTextSizeV=1.000000000000
+PcbTextSizeH=1.000000000000
+PcbTextThickness=0.300000000000
+ModuleTextSizeV=1.000000000000
+ModuleTextSizeH=1.000000000000
+ModuleTextSizeThickness=0.150000000000
+SolderMaskClearance=0.000000000000
+SolderMaskMinWidth=0.000000000000
+DrawSegmentWidth=0.200000000000
+BoardOutlineThickness=0.150000000000
+ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
-LibDir=
+LibDir=../../../Dropbox/KiCad/libraries_and_modules
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -75,5 +77,6 @@ LibName8=led
 LibName9=dip_sockets
 LibName10=pga_sockets
 LibName11=valves
+LibName12=DIP8_ez
 [general]
 version=1
